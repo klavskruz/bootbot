@@ -43,4 +43,4 @@ def get_flight_price(to_city, from_city, date):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=105)
+    app.run(threaded=True, port=5000)
